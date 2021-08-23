@@ -266,11 +266,16 @@ nav a:hover{
   text-align: center;
   font-size: .9rem;
 }
-.students-img{
+.students-img {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .students-img img{
-  width: 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 /*Fourth Content*/
@@ -329,6 +334,8 @@ nav a:hover{
 
 /*Media Queries*/
 
+
+
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
@@ -382,7 +389,25 @@ nav a:hover{
   nav a:hover::before {
     transform: scale(1,1);
   }
+
+
+  .img-container__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container__img img {
+    width: 70%;
+  }
+
+
+  .box-container {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
+
+
 /*Asosit Qism*/
 
 
